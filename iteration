@@ -1,0 +1,57 @@
+//*************************************//
+//For Iteration of data
+//*************************************//
+var bioData = [{
+    name: "Jayasuriya",
+    Age: "23",
+    dob: "01-07-1999",
+    Education: "Civil Engineering",
+    Year: "2020"
+}];
+
+for (var i=0; i < bioData.length; i++){
+    console.log(bioData[i]);
+}
+
+//*************************************//
+// For in Iteration of a data
+//*************************************//
+var bioData = [{
+    name: "Jayasuriya",
+    Age: "23",
+    dob: "01-07-1999",
+    Education: "Civil Engineering",
+    Year: "2020"
+}];
+for (const key in bioData){
+    console.log(key + " : "+ bioData[key]);
+}
+
+//*************************************//
+// For of Iteration of data
+//*************************************//
+var bioData = {
+    name: "Jayasuriya",
+    Age: "23",
+    dob: "01-07-1999",
+    Education: "Civil Engineering",
+    Year: "2020"
+};
+
+for (const key of Object.keys(bioData)){
+    console.log(key + " : " + bioData[key])
+}
+
+//*************************************//
+// For Each Iteration of data
+//*************************************//
+var bioData = [{
+    name: "Jayasuriya",
+    Age: "23",
+    dob: "01-07-1999",
+    Education: "Civil Engineering",
+    Year: "2020"
+}];
+Object.keys(bioData).forEach(key=> {
+    console.log(key, " : " + bioData[key]);
+});

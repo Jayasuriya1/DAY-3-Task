@@ -1,0 +1,18 @@
+const resume={
+    "Name": "R.S.Jayasuriya",
+    "Age": "23",
+    "DOB": "01-07-1999",
+    "Education": "Civil Engineeer",
+    "Passed out year": "2020",
+    "Experience": "1.5 Years as Site Engineer , 6 Months as Rebar Detailer",
+    "Employer": {
+        "Employer 1": "Giri Sahajanya Projects",
+        "Employer 2": "Prothious Engineering Services",
+    },
+    "Language": [
+        "English",
+        "Tamil",
+        "Telugu"
+    ],
+    "Plans": "Want to become Full Stack Developer"
+}
